@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.header-left h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.header-rigth{
+    width: 50%;
+    justify-items: center;
+    align-content: center;
+}
+
+.header-rigth nav ul{
+    display: flex;
+    gap: 35px;
+}
+
+.header-rigth nav ul li{
+    list-style: none;
+    font-size: 17px;
+    opacity: 70%;
+}
